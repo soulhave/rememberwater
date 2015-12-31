@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="inicial" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#E0FFFF</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:textStyle">bold</item>
+        
+    </style>
+    <style name="styleName" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#E0FFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textSize">12px</item>
+    </style>
+    <style name="styleVers" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textSize">25px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="styleTitulo" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:textSize">42px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="styleTituloSmall" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#E0FFFF</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:textSize">25px</item>
+        <item name="android:textStyle">normal</item>
+    </style>    
+    <style name="styleCombo" parent="android:Widget.Spinner">
+        <item name="android:textSize">18px</item>
+        <item name="android:textStyle">normal</item>
+     </style>
+       <style name="styleTime">
+        <item name="android:layout_marginLeft">100px</item>
+        <item name="android:layout_marginTop">230px</item>
+     </style>
+</resources>

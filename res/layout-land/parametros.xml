@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:background="#1E90FF">
+		<FrameLayout android:layout_height="fill_parent"
+			android:id="@+id/frameLayout1" android:layout_width="fill_parent" android:scrollbarAlwaysDrawVerticalTrack="true">
+
+			<ImageView android:src="@drawable/logowater_small"
+				android:layout_width="48px" android:id="@+id/ImageView1"
+				android:layout_gravity="top" android:layout_marginTop="25px"
+				android:layout_marginLeft="25px" android:layout_height="wrap_content"></ImageView>
+
+			<TextView android:id="@+id/titulo" style="@style/styleTitulo"
+				android:text="@string/tituloParam" android:layout_gravity="top"
+				android:layout_marginTop="25px" android:layout_marginLeft="95px"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+
+			<ImageView android:src="@drawable/linha" android:id="@+id/imageView2"
+				android:layout_gravity="top" android:layout_marginTop="75px"
+				android:layout_marginLeft="145px" android:layout_width="480px"
+				android:layout_height="15dp"></ImageView>
+
+			<!-- Litros -->
+			<TextView android:id="@+id/litros" style="@style/styleTituloSmall"
+				android:text="@string/titulolitro" android:layout_gravity="top"
+				android:layout_marginTop="110px" android:layout_marginLeft="25px"
+				android:layout_height="42dp" android:layout_width="99dp"></TextView>
+
+			<Spinner style="@style/styleCombo" android:id="@+id/qtdLitros"
+				android:layout_gravity="top" android:layout_height="60px"
+				android:layout_width="105dp" android:layout_marginLeft="190px"
+				android:layout_marginTop="115px"></Spinner>
+
+			<!-- Horário de Sono -->
+			<TextView android:id="@+id/tituloHorarioDormir" style="@style/styleTituloSmall"
+				android:text="@string/tituloHorarioDormir" android:layout_gravity="top"
+				android:layout_marginTop="190px" android:layout_marginLeft="25px"
+				android:layout_height="22dp" android:layout_width="200dp"></TextView>
+			<!-- Inicio -->
+			<TextView android:id="@+id/tituloInicio" style="@style/styleTituloSmall"
+				android:text="@string/tituloInicio" android:layout_gravity="top"
+				android:layout_marginTop="300px" android:layout_marginLeft="25px"
+				android:layout_height="30dp" android:layout_width="99dp"></TextView>
+
+			<TimePicker android:id="@+id/timerInicio" style="@style/styleTime"
+				android:layout_width="215dp" android:layout_height="120dp"
+				android:layout_gravity="top" android:layout_marginLeft="100px"
+				android:layout_marginTop="230px"></TimePicker>
+
+			<!-- Fim -->
+			<TextView android:id="@+id/tituloFinal" style="@style/styleTituloSmall"
+				android:text="@string/tituloFinal" android:layout_gravity="top"
+				android:layout_marginTop="500px" android:layout_marginLeft="25px"
+				android:layout_height="30dp" android:layout_width="99dp"></TextView>
+
+			<TimePicker android:id="@+id/timerInicio" style="@style/styleTime"
+				android:layout_width="215dp" android:layout_height="120dp"
+				android:layout_gravity="top" android:layout_marginLeft="100px"
+				android:layout_marginTop="420px"></TimePicker>
+
+			<!-- Copos de água -->
+			<TextView android:id="@+id/tituloCopoAgua" style="@style/styleTituloSmall"
+				android:text="@string/tituloCopoAgua" android:layout_gravity="top"
+				android:layout_marginTop="620px" android:layout_marginLeft="25px"
+				android:layout_height="42dp" android:layout_width="99dp"></TextView>
+
+			<Spinner style="@style/styleCombo" android:id="@+id/qtdCopos"
+				android:layout_gravity="top" android:layout_height="60px"
+				android:layout_width="105dp" android:layout_marginLeft="190px"
+				android:layout_marginTop="620px"></Spinner>
+
+			<!-- Rodapé -->
+			
+
+		</FrameLayout>
+	</LinearLayout>

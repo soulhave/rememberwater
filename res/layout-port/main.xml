@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#1E90FF">
+	<FrameLayout android:layout_height="fill_parent"
+		android:id="@+id/frameLayout1" 
+		android:layout_width="fill_parent">
+
+	<TextView android:id="@+id/titulo" android:text="@string/bemvindo"
+		style="@style/inicial" 
+		android:layout_width="fill_parent" android:layout_gravity="top"
+		android:layout_marginTop="80px" android:layout_height="wrap_content"></TextView>
+
+	<ImageView android:src="@drawable/logowater"
+		android:layout_width="fill_parent" android:id="@+id/ImageView1"
+		android:layout_height="wrap_content" android:layout_gravity="bottom"
+		android:layout_marginBottom="300px"></ImageView>
+
+	<TextView android:id="@+id/direitos" style="@style/styleName"
+		android:text="@string/direito" android:layout_width="fill_parent"
+		android:layout_gravity="bottom"
+		android:layout_marginBottom="50px" android:layout_height="24dp"></TextView>
+	
+	<TextView android:id="@+id/versao" style="@style/styleVers"
+		android:text="@string/versao" android:layout_width="fill_parent"
+		android:layout_gravity="bottom"
+		android:layout_marginBottom="100px" android:layout_height="24dp"></TextView>
+		
+	</FrameLayout>
+
+</LinearLayout>

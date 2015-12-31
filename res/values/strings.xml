@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RememberWaterActivity!</string>
+    <string name="app_name">RememberWater</string>
+    <string name="app_name_param">RememberWater Paramêtros</string>
+    <string name="bemvindo">SEJA BEM VINDO AO REMEMBER WATER</string>
+    <string name="direito">Todos os direitos reservados a RMS®. Este produto não poder ser utilizado para fins comerciais.</string>
+    <string name="versao">V1.0.0A - BETA</string>
+    <string name="tituloParam">Paramêtros</string>
+    <string name="titulolitro">Litros de água por dia:</string>
+    <string name="tituloHorarioDormir">Intervalo de Sono:</string>
+    <string name="tituloInicio">Inicio:</string>
+    <string name="tituloFinal">Final:</string>
+    <string name="tituloCopoAgua">ML de água por copo:</string>
+    <string name="tituloBebaAgua">Beba Água</string>
+    <string name="em_execucao">Em execução</string>
+</resources>

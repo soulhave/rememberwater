@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="br.com.remember.water" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+	<application android:icon="@drawable/logowater_small"
+		android:label="@string/app_name" android:name=".apps.AppDataService">
+		<activity android:name=".activity.RememberWaterMainActivity"
+			android:label="@string/app_name" android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".activity.RememberWaterParametrosActivity" android:label="@string/app_name_param">
+		</activity>
+		<activity android:name=".activity.RememberWaterBebaAguaActivity" android:label="@string/app_name_param">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<service android:name=".service.RememberWaterService">
+			<intent-filter>
+				<action android:name="INICIAR_SERVICO" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+	</application>
+	<uses-permission android:name="android.permission.VIBRATE"/>	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#1E90FF">
+	<FrameLayout android:layout_height="fill_parent"
+		android:id="@+id/frameLayout1" android:layout_width="fill_parent">
+		<!-- Header -->
+		<ImageView android:src="@drawable/logowater_small"
+			android:layout_width="48px" android:id="@+id/ImageView1"
+			android:layout_gravity="top" android:layout_marginTop="25px"
+			android:layout_marginLeft="25px" android:layout_height="wrap_content"></ImageView>
+
+		<TextView android:id="@+id/titulo" style="@style/styleTitulo"
+			android:text="@string/tituloBebaAgua" android:layout_gravity="top"
+			android:layout_marginTop="25px" android:layout_marginLeft="95px"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+
+		<ImageView android:src="@drawable/linha" android:id="@+id/imageView2"
+			android:layout_gravity="top" android:layout_marginTop="75px"
+			android:layout_marginLeft="145px" android:layout_width="480px"
+			android:layout_height="15dp"></ImageView>
+
+		<ImageButton android:id="@+id/dwBebaAgua"
+			android:layout_height="wrap_content" android:layout_gravity="top"
+			android:layout_width="wrap_content" android:layout_marginLeft="40px" android:layout_marginTop="200px"></ImageButton>
+			
+		<!-- Rodapé -->
+		<TextView android:id="@+id/direitos" style="@style/styleName"
+			android:text="@string/direito" android:layout_width="fill_parent"
+			android:layout_gravity="bottom" android:layout_marginBottom="30px"
+			android:layout_height="24dp"></TextView>
+
+	</FrameLayout>
+</LinearLayout>
